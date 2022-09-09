@@ -1,0 +1,23 @@
+server_tokens               off;
+access_log                  /var/log/nginx/hashkit.access.log;
+error_log                   /var/log/nginx/hashkit.error.log;
+
+# This configuration will be changed to redirect to HTTPS later
+#server {
+#  server_name               .hashkit.local;
+#  listen                    80;
+#  location / {
+#    include proxy_params;
+#    proxy_pass              http://0.0.0.0:8000;
+#    proxy_set_header        Host $host;
+#  }
+#}
+
+server {
+    listen 80;
+
+    location / {
+        include proxy_params;
+        proxy_pass http://127.0.0.1:8000;
+    }
+}

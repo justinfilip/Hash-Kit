@@ -1,0 +1,8 @@
+[Unit]
+After=network.service
+
+[Service]
+ExecStart=/home/ubuntu/Hash-Kit/system_resources/hashkit_monitor.sh
+
+[Install]
+WantedBy=default.target

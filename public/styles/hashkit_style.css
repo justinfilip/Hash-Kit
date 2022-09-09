@@ -1,0 +1,275 @@
+* {
+
+    display: block;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    touch-action: manipulation;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+
+}
+
+*::-webkit-scrollbar {
+    display: none;
+}
+
+html body {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    font-family: sans-serif;
+    font-size: small;
+}
+
+p {
+    font-size: smaller;
+}
+
+a {
+    color: #ff6969
+}
+
+.page_header {
+    position: absolute;
+    background-color: #ffffff;
+    height: auto;
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 5px;
+    padding-right: 5px;
+    display: inline-block;
+
+}
+
+.page_header_text {
+    font-size: small;
+    display: inline-block;
+    margin-left: 145px;
+}
+
+.right {
+    float: left;
+    width: 285px;
+    max-width: 50%;
+    height: 100%;
+    overflow-y: scroll;
+    margin-left: 5px;
+    padding-bottom: 50px;
+    padding-top: 40px;
+}
+
+.main_window {
+    width: auto;
+    max-width: 100%;
+    height: 100%;
+    padding: 10px;
+    overflow-y: scroll;
+    padding-bottom: 50px;
+    margin-top: 30px;
+}
+
+.hf_logo {
+    height: 9px;
+    width: auto;
+    position: absolute;
+    top: 0;
+    margin-top: 13px;
+    margin-right: 5px;
+}
+
+.tw_logo {
+    height: 15px;
+    float: right;
+    margin-right: 5px;
+}
+
+.reporting_totals_header {
+    width: auto;
+    margin-bottom: 15px;
+}
+
+.reporting_totals_header_label {
+    margin-bottom: 5px;
+}
+
+.reporting_totals_header_item {
+    display: inline-block;
+    vertical-align: top;
+    padding: 15px;
+    margin-bottom: 10px;
+    border: 1px solid #6e6e6e;
+    border-radius: 5px 5px 5px 5px;
+    width: 100%;
+    max-width: 220px;
+}
+
+.reporting_totals_item {
+    width: 90%;
+    margin-top: 10px;
+}
+
+.reporting_warning_label {
+    display: inline-block;
+}
+
+.reporting_warning_item {
+    width: auto;
+    float: right;
+    margin-top: 2px;
+}
+
+.warning_expander {
+    color: #ff6969;
+    font-style: italic;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+.warning_detail {
+    display: none;
+}
+
+.warning_detail_active {
+    height: auto;
+    margin-top: 10px;
+}
+
+.warning_item {
+    margin-top: 5px;
+}
+
+.exp_selector {
+    background-color: #ffffff;
+    color:#ff6969;
+    border: 1px solid #6e6e6e;
+    border-radius: 5px 5px 5px 5px;
+    width: 100%;
+    height: auto;
+    padding: 7px;
+    margin-bottom: 5px;
+    font-size: smaller;
+}
+
+.exp_selector:focus {
+    background-color: #ffffff;
+    border: 1px solid #6e6e6e;
+    outline: 0;
+    color:#ff6969;
+    width: 100%;
+    height: auto;
+    padding: 7px;
+    margin-bottom: 5px;
+}
+
+.add_range {
+    width: 100%;
+}
+
+.add_range_label {
+    width: 100%;
+    height: 20px;
+}
+
+.add_range_button {
+    width: 100%;
+    height: auto;
+    padding: 7px;
+    background-color: #000000;
+    color:rgb(255, 255, 255);
+    border-radius: 5px 5px 5px 5px;
+    margin-bottom: 5px;
+    margin-top: 10px;
+    font-size: smaller;
+}
+
+.range_name {
+    width: 100%;
+    height: auto;
+    padding: 7px;
+    margin-bottom: 5px;
+}
+
+.range_name:focus {
+    outline: 0;
+    width: 100%;
+    height: auto;
+    padding: 7px;
+    margin-bottom: 5px;
+}
+
+.range_start {
+    width: 100%;
+    height: auto;
+    padding: 7px;
+    margin-bottom: 5px;
+}
+
+.range_start:focus {
+    outline: 0;
+    width: 100%;
+    height: auto;
+    padding: 7px;
+    margin-bottom: 5px;
+}
+
+.range_end {
+    width: 100%;
+    height: auto;
+    padding: 7px;
+}
+
+.range_end:focus {
+    outline: 0;
+    width: 100%;
+    height: auto;
+    padding: 7px;
+}
+
+.range_container {
+    width: 100%;
+    height: auto;
+    float: left;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.del_range_button {
+    width: 100%;
+    height: auto;
+    background-color: #ff6969;
+    color:rgb(255, 255, 255);
+    padding: 7px;
+    border-radius: 5px 5px 5px 5px;
+    margin-top: 5px;
+    font-size: smaller;
+}
+
+.range_item {
+    width: 100%;
+    height: auto;
+    border: 1px solid #6e6e6e;
+    border-radius: 5px 5px 5px 5px;
+    float: left;
+    margin-bottom: 10px;
+    padding: 10px;
+    text-align: right;
+}
+
+.range_label {
+    float: right;
+    width: auto;
+    max-width: 80%;
+}
+
+.range_addresses {
+    float: right;
+    width: 100%;
+    margin-top: 10px;
+}
+
+.range_checkbox {
+    float: left;
+    accent-color: #000000;
+}
