@@ -16,7 +16,7 @@ This software assumes that your miners have static addresses assigned to them. I
 
 3) Run the following command: 
 
-    git clone https://github.com/justinfilip/Hash-Kit.git
+    git clone https://github.com/HashFrontier/Hash-Kit.git
 
 4) Run the following command:
 
@@ -28,8 +28,4 @@ This software assumes that your miners have static addresses assigned to them. I
     
 6) Wait. The machine will reboot itself and automatically start the Hash Kit services.
    
-7) Locate the machine's IP address on your network and navigate to it. (Ex: 192.168.1.169)
-
-8) ?????
-
-9) Profit.
+7) Locate the machine's IP address on your network and navigate to it in your browser. (Ex: 192.168.1.169)
