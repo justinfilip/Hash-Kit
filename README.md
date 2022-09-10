@@ -1,5 +1,5 @@
 # Hash Kit
-### Free, Open-Source, Bitcoin Mining Farm Management Software
+###Free, Open-Source, Bitcoin Mining Farm Management Software
 From, Hash Frontier, Twitter: @HashFrontier
 
 No more black boxes, no more management software fees, and improved miner uptime and insights. Works well on a mobile browser too.
