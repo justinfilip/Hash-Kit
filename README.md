@@ -6,6 +6,8 @@ No more black boxes, no more management software fees, and improved miner uptime
 
 This software assumes that your miners have static addresses assigned to them. It is generally a good practice to assign static IP addresses to your miners or use a switch that assigns static addresses to each ethernet port.
 
+### Currently only supports cgminer based firmwares (Verified: Bitmain, Vnish)
+
 ## Setup
 
 1) Install Ubuntu Server on your machine, keeping the "ubuntu" default username. Any ol' computer will do, really. 
