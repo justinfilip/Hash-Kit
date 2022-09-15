@@ -1,5 +1,3 @@
-![desktop](https://user-images.githubusercontent.com/113215575/190463642-8867eb49-7cee-41e2-9248-703e4179cf9e.png)
-![mobile1](https://user-images.githubusercontent.com/113215575/190463649-fabb3692-3d82-4e6b-81f3-b1a106ab6807.png)
 # Hash Kit
 ### Free, Open-Source, Bitcoin Mining Farm Management Software
 From, Hash Frontier, Twitter: @HashFrontier
@@ -33,3 +31,6 @@ This software assumes that your miners have static addresses assigned to them. I
 6) Wait. The machine will reboot itself and automatically start the Hash Kit services.
    
 7) Locate the machine's IP address on your network and navigate to it in your browser. (Ex: 192.168.1.169)
+
+![desktop](https://user-images.githubusercontent.com/113215575/190463642-8867eb49-7cee-41e2-9248-703e4179cf9e.png)
+![mobile1](https://user-images.githubusercontent.com/113215575/190463649-fabb3692-3d82-4e6b-81f3-b1a106ab6807.png)
