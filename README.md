@@ -1,3 +1,5 @@
+![desktop](https://user-images.githubusercontent.com/113215575/190463642-8867eb49-7cee-41e2-9248-703e4179cf9e.png)
+![mobile1](https://user-images.githubusercontent.com/113215575/190463649-fabb3692-3d82-4e6b-81f3-b1a106ab6807.png)
 # Hash Kit
 ### Free, Open-Source, Bitcoin Mining Farm Management Software
 From, Hash Frontier, Twitter: @HashFrontier
